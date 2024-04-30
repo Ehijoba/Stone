@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simeon Alende - Portfolio</title>
+<style>
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content p {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+</style>
+<script> document.addEventListener("DOMContentLoaded", function(event) { 
+    var dropdowns = document.querySelectorAll('.dropdown');
+    dropdowns.forEach(function(dropdown) {
+      var button = dropdown.querySelector('.dropbtn');
+      var content = dropdown.querySelector('.dropdown-content');
+      button.addEventListener('click', function() {
+        content.classList.toggle('show');
+      });
+    });
+  });
+</script>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.ibb.co/Mk8jrDY/simeon-alende.jpg" alt="Simeon Alende">
+    <p>
+      My name is Simeon Alende, a versatile professional skilled in both full-stack development and graphic design. With a passion for crafting engaging user experiences, I bring creativity and technical expertise to every project. With years of experience in coding and design, I excel in translating concepts into visually stunning and functional digital solutions.
+    </p>
+    <p>Email: <a href="mailto:simeonalende22@gmail.com">simeonalende22@gmail.com</a><br>
+       Phone: <a href="tel:+2347087415067">+2347087415067</a><br>
+       Status: Online<br>
+       Location: Ibadan, Nigeria</p>
+    <div class="dropdown" style="position: relative; display: inline-block;">
+      <button class="dropbtn" style="background-color: #3498db; color: white; padding: 10px 20px; font-size: 16px; border: none; cursor: pointer;">⌄ My Services</button>
+      <div class="dropdown-content" style="display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); z-index: 1;">
+        <p style="color: black; padding: 10px 20px; text-decoration: none; display: block;">Web Development</p>
+        <p style="color: black; padding: 10px 20px; text-decoration: none; display: block;">UI/UX Design</p>
+        <p style="color: black; padding: 10px 20px; text-decoration: none; display: block;">Graphic Design</p>
+        <p style="color: black; padding: 10px 20px; text-decoration: none; display: block;">Database Management</p>
+        <p style="color: black; padding: 10px 20px; text-decoration: none; display: block;">SEO Optimization</p>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">⌄ Qualifications</button>
+      <div class="dropdown-content">
+        <div class="progress-bar">
+          <div class="progress-bar-inner" style="width: 85%;">Full-stack Developing: 85%</div>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-bar-inner" style="width: 90%;">Graphic Design: 90%</div>
+        </div>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">⌄ Contact Information</button>
+      <div class="dropdown-content">
+        <a href="https://t.me/Ehi_joba"><img src="https://i.ibb.co/xHGBbp9/telegram-logo.png" alt="Telegram" width="30"></a>
+        <a href="https://www.instagram.com/invites/contact/?i=8cmecn2ti1qm&utm_content=fk9bd2q"><img src="https://i.ibb.co/7b0XwB0/instagram-logo.png" alt="Instagram" width="30"></a>
+        <a href="https://wa.me/07087415067"><img src="https://i.ibb.co/pZkR7wb/whatsapp-logo.png" alt="WhatsApp" width="30"></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
