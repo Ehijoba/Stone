@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simeon Alende - Portfolio</title>
+<style>
+  .category {
+    display: none;
+  }
+
+  .current-category {
+    display: block;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <input type="radio" id="category1" name="category" checked>
+  <label for="category1">Intro</label>
+  <input type="radio" id="category2" name="category">
+  <label for="category2">My Services</label>
+  <input type="radio" id="category3" name="category">
+  <label for="category3">Qualifications</label>
+  <input type="radio" id="category4" name="category">
+  <label for="category4">Contact Information</label>
+
+  <div class="category current-category">
+    <img src="https://i.ibb.co/Mk8jrDY/simeon-alende.jpg" alt="Simeon Alende">
+    <p>
+      My name is Simeon Alende, a versatile professional skilled in both full-stack development and graphic design. With a passion for crafting engaging user experiences, I bring creativity and technical expertise to every project. With years of experience in coding and design, I excel in translating concepts into visually stunning and functional digital solutions.
+    </p>
+  </div>
+  <div class="category">
+    <h2>My Services</h2>
+    <ul>
+      <li>Web Development</li>
+      <li>UI/UX Design</li>
+      <li>Graphic Design</li>
+      <li>Database Management</li>
+      <li>SEO Optimization</li>
+    </ul>
+  </div>
+  <div class="category">
+    <h2>Qualifications</h2>
+    <div class="progress-bar">
+      <div class="progress-bar-inner" style="width: 85%;">Full-stack Developing: 85%</div>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-bar-inner" style="width: 90%;">Graphic Design: 90%</div>
+    </div>
+  </div>
+  <div class="category">
+    <h2>Contact Information</h2>
+    <a href="https://t.me/Ehi_joba"><img src="https://i.ibb.co/xHGBbp9/telegram-logo.png" alt="Telegram" width="30"></a>
+    <a href="https://www.instagram.com/invites/contact/?i=8cmecn2ti1qm&utm_content=fk9bd2q"><img src="https://i.ibb.co/7b0XwB0/instagram-logo.png" alt="Instagram" width="30"></a>
+    <a href="https://wa.me/07087415067"><img src="https://i.ibb.co/pZkR7wb/whatsapp-logo.png" alt="WhatsApp" width="30"></a>
+  </div>
+</div>
+</body>
+</html>
